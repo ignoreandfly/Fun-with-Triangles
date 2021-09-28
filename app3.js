@@ -7,9 +7,12 @@ var output = document.querySelector("#outputbox");
 function clickHandler() {
     var ipone = Number(inputone.value);
     var iptwo = Number(inputtwo.value);
+    if (ipone <0 || iptwo<o){
+        output.innerText="Sides can't be negative"}
+        else {
   
    
-    validator(ipone, iptwo);
+    validator(ipone, iptwo);}
 
 }
 

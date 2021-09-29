@@ -1,0 +1,1 @@
+This app let's you calculate area of a triangle, calculate its Hypotenuse, validate wheteher it is a triangle or not plus it also contains a quiz based on basic triangles properies. Created using vanilaJS

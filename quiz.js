@@ -2,7 +2,7 @@ var formQuiz = document.querySelector(".quiz")
 var submitBtn = document.querySelector("#score-btn")
 var outputbox = document.querySelector("#output-box")
 
-var correctAnswer = ["45°", "Equilateral", "180"]
+var correctAnswer = ["45°", "Equilateral", "180","Equal","60"]
 
 function scoreHandler() {
     score = 0;

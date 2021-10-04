@@ -7,8 +7,8 @@ function clickHandler(){
 var ipone = Number(inputone.value);
 var iptwo= Number(inputtwo.value);
 var ipthree= Number(inputthree.value);
-if (ipone <0 || iptwo<0 || ipthree<0){
-    output.innerText="Angles can't be negative"}
+if (ipone <=0 || iptwo<=0 || ipthree<=0){
+    output.innerText="Angles can't be negative/zero"}
     else {
  validator(ipone,iptwo,ipthree);}
 
